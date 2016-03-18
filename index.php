@@ -13,12 +13,13 @@
 	<script>
 		$(document).ready(function(){
 			var width = $(window).width();
+			window.alert(width);/*
 			if(width > 768){
 				window.location = "Desktop/index.html";
 			}
 			else{
 				window.location = "Mobile/index.html";
-			}
+			}*/
 		})
 	</script>
 </head>
